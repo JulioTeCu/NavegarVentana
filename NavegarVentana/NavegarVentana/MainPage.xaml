@@ -10,6 +10,7 @@
         <Button Text="Bienvenida" x:Name="Page1" Clicked="Page1_Clicked"/>
         <Button Text="Suma de dos números" x:Name="Page2" Clicked="Page2_Clicked" />
         <Button Text="Créditos" x:Name="Page3" Clicked="Page3_Clicked"/>
+        <Label Text="Hola" />zzz
     </StackLayout>
 
 </ContentPage>
