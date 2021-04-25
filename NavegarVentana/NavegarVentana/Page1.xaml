@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavegarVentana.Page1">
+    <ContentPage.Content>
+        <StackLayout >
+            <Frame BackgroundColor="MediumSeaGreen" Padding="20" CornerRadius="0">
+                <Label Text="Hola, Bienvenido"  HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
+            </Frame>
+            <Label FontSize="20" HorizontalTextAlignment="Center" 
+                   TextColor="Orange">Bienvenidos a mi Aplicación, Cambio de Ventanas</Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

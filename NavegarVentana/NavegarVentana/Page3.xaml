@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavegarVentana.Page3">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Frame BackgroundColor="Purple" Padding="20" CornerRadius="0">
+                <Label Text="Créditos" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+            </Frame>
+            <Label FontSize="22" TextColor="Black" HorizontalTextAlignment="Center">Julio César Tehozol Curiel</Label>
+            <Label FontSize="18" TextColor="Black" HorizontalTextAlignment="Center">6 AMPG</Label>
+            <Label FontSize="20" TextColor="Black" HorizontalTextAlignment="Center">DESARROLLA APLICACIONES MÓVILES PARA iOS</Label>
+            <Label FontSize="18" TextColor="Black" HorizontalTextAlignment="Center">19 de Abirl del 2021</Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

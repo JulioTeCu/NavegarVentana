@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavegarVentana.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="Orange" Padding="10" CornerRadius="0">
+                <Label Text="Suma dos Números" HorizontalTextAlignment="Center" TextColor="White" FontSize="34" />
+            </Frame>
+            <Entry x:Name="num1" Placeholder="Escirbe un número" Keyboard="Numeric" />
+            <Entry x:Name="num2" Placeholder="Escribe un número" Keyboard="Numeric" />
+            <Button Text="Calcular" BorderColor="#000000" Clicked="Button_Clicked" BackgroundColor="Red" />
+            <Entry x:Name="resultado" Placeholder="Resultado" IsEnabled="False" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
